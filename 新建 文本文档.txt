@@ -1,0 +1,17 @@
+git config 查看配置
+git config --system --list 查看系统配置
+git config --global --list 查看用户配置
+
+git init 创建库
+git add 添加指定文件到暂存区 文件状态从untracked变为staged
+git add . 添加所有文件到暂存区
+git rm 从库中移出文件
+git checkout 丢弃修改
+git commit -m 提交暂存区内容到本地库 m为提交信息 文件状态从staged变为unmodified
+git status 查看所有文件状态
+git status filename 查看指定文件状态
+
+untrack 未跟踪
+staged 暂存
+unmodify 未修改
+modified 已修改 未暂存

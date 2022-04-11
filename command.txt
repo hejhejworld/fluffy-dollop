@@ -1,0 +1,36 @@
+git config 查看配置
+git config --system --list 查看系统配置
+git config --global --list 查看用户配置
+git config --global user.name 设置用户名
+git config --global user.email 设置邮箱
+
+touch filename 创建文件
+git init 创建库
+git add 添加指定文件到暂存区 文件状态从untracked变为staged
+git add . 添加所有文件到暂存区
+git rm 从库中移出文件
+git checkout 丢弃修改
+git commit -m 提交暂存区内容到本地库 m为提交信息 文件状态从staged变为unmodified
+git status 查看所有文件状态
+git status filename 查看指定文件状态
+git branch 查看本地分支
+git branch -r 查看远程分支
+git branch branchname 创建分支
+git branch -d branchname 删除分支
+git branch -b branchname 切换分支
+git remote 操作远程仓库
+git remote add originname url 添加远程库 url为库的地址
+要在文件当前所在的目录下使用命令行
+
+untrack 未跟踪
+staged 暂存
+unmodify 未修改
+modified 已修改 未暂存
+
+idea中文件颜色代表的状态：
+绿色——已经加入控制暂未提交（已add 未commit
+红色——未加入版本控制（未add
+蓝色——加入，已提交，有改动
+白色——加入，已提交，无改动
+灰色——版本控制已忽略文件
+黄色——被git忽略，不跟踪

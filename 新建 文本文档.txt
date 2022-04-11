@@ -13,6 +13,12 @@ git checkout 丢弃修改
 git commit -m 提交暂存区内容到本地库 m为提交信息 文件状态从staged变为unmodified
 git status 查看所有文件状态
 git status filename 查看指定文件状态
+git branch 查看本地分支
+git branch -r 查看远程分支
+git branch branchname 创建分支
+git branch -d branchname 删除分支
+git branch -b branchname 切换分支
+git remote 操作远程仓库
 
 untrack 未跟踪
 staged 暂存

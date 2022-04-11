@@ -1,7 +1,10 @@
 git config 查看配置
 git config --system --list 查看系统配置
 git config --global --list 查看用户配置
+git config --global user.name 设置用户名
+git config --global user.email 设置邮箱
 
+touch filename 创建文件
 git init 创建库
 git add 添加指定文件到暂存区 文件状态从untracked变为staged
 git add . 添加所有文件到暂存区
@@ -15,3 +18,11 @@ untrack 未跟踪
 staged 暂存
 unmodify 未修改
 modified 已修改 未暂存
+
+idea中文件颜色代表的状态：
+绿色——已经加入控制暂未提交（已add 未commit
+红色——未加入版本控制（未add
+蓝色——加入，已提交，有改动
+白色——加入，已提交，无改动
+灰色——版本控制已忽略文件
+黄色——被git忽略，不跟踪

@@ -19,6 +19,7 @@ git branch branchname 创建分支
 git branch -d branchname 删除分支
 git branch -b branchname 切换分支
 git remote 操作远程仓库
+.
 
 untrack 未跟踪
 staged 暂存

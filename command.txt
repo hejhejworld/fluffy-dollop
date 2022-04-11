@@ -20,7 +20,7 @@ git branch -d branchname 删除分支
 git branch -b branchname 切换分支
 git remote 操作远程仓库
 git remote add originname url 添加远程库 url为库的地址
-要在文件当前所在的目录下使用命令行
+add,commit,push等命令要在文件当前所在的目录下使用
 
 untrack 未跟踪
 staged 暂存

@@ -6,3 +6,17 @@
 /dataSources.local.xml
 # 基于编辑器的 HTTP 客户端请求
 /httpRequests/
+
+.idea
+*.iml
+out
+gen
+.classpath
+*.eml
+target
+*.log
+.log.
+generatorConfig.xml
+.DS_Store
+*.cache
+.lock
